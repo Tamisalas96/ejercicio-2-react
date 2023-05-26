@@ -1,4 +1,5 @@
 import './App.css'
+import Myfriend from './components/Myfriend'
 
 
 function App() {
@@ -6,7 +7,8 @@ function App() {
 
   return (
     <>
-    
+   <Myfriend amigoNuevo='my friend!'/>
+
     </>
   )
 }
